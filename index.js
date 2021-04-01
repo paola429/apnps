@@ -11,6 +11,10 @@ app.get('/mensagem',function(req,res){
 
 })
 
+app.get('/layout',function(req,res){
+    res.send("Esse é o novo Layout!")
+})
+
 
 app.listen(3000,function(){
     console.log("Conexão inicializada")
