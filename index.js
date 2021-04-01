@@ -11,6 +11,10 @@ app.get('/mensagem',function(req,res){
 
 })
 
+app.get('/sobre',function(req,res){
+    res.send("Esta página está sendo desenvolvida por Paola!")
+})
+
 
 app.listen(3000,function(){
     console.log("Conexão inicializada")
